@@ -11,7 +11,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/meedream-redesign/',
+  base: '/MEEDREAM/',
   // base: '/vueport/',
   build: { outDir: 'docs' },
 
