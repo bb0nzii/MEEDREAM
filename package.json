@@ -3,12 +3,13 @@
   "private": true,
   "type": "module",
   "version": "0.0.0",
+  "homepage": "https://bb0nzii.github.io/MEEDREAM",
   "scripts": {
     "dev": "vite",
     "build": "vite build && cp docs/index.html docs/404.html",
     "preview": "vite preview",
-    "lint": "eslint . --fix"
-    
+    "lint": "eslint . --fix",
+    "deploy": "gh-pages -d docs"
   },
   "dependencies": {
     "@fontsource/roboto": "5.2.5",

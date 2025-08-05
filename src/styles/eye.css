@@ -29,11 +29,14 @@
   background: #EEE9F0;
   box-sizing: border-box;
   display: flex;
-  justify-content: center; /* 가로 정렬 (가운데 정렬) */
-  align-items: center; /* 세로 정렬 (중앙 정렬) */
+  justify-content: center;
+  /* 가로 정렬 (가운데 정렬) */
+  align-items: center;
+  /* 세로 정렬 (중앙 정렬) */
 }
 .en_sec_1 .v-row {
-  gap: 20px; /* 질문박스 간격 */
+  gap: 20px;
+  /* 질문박스 간격 */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -95,7 +98,8 @@
 .en_sec_3 .en_sec_3_contents .en_sec_3_box {
   display: flex;
   flex-direction: column;
-  align-items: center; /* 가운데 정렬 (선택사항) */
+  align-items: center;
+  /* 가운데 정렬 (선택사항) */
   gap: 30px;
 }
 .en_sec_3 .en_sec_3_contents .en_sec_3_box .en_sec_3_img1,
@@ -153,7 +157,8 @@
   }
   .en_sec_3_contents .en_sec_3_box {
     width: 100%;
-    max-width: 1000px; /* 가운데 정렬 위해 */
+    max-width: 1000px;
+    /* 가운데 정렬 위해 */
     display: flex;
     flex-direction: row !important;
     align-items: center;
@@ -216,7 +221,8 @@
   }
   .en_sec_3_contents .en_sec_3_box {
     width: 100%;
-    max-width: 1000px; /* 가운데 정렬 위해 */
+    max-width: 1000px;
+    /* 가운데 정렬 위해 */
     display: flex;
     flex-direction: row !important;
     align-items: center;
@@ -258,9 +264,11 @@
   }
   .en_sec_1 .en_sec_1_box .en_sec_1_question_box {
     display: flex;
-    flex-direction: row !important; /* 모바일에선 가로 정렬 */
+    flex-direction: row !important;
+    /* 모바일에선 가로 정렬 */
     align-items: flex-start;
-    gap: 12px; /* 아이콘과 텍스트 사이 간격 */
+    gap: 12px;
+    /* 아이콘과 텍스트 사이 간격 */
   }
   .en_sec_1 .en_sec_1_box .en_sec_1_question {
     font-size: 20px !important;
@@ -299,7 +307,8 @@
   }
   .en_sec_3_contents .en_sec_3_box {
     width: 100%;
-    max-width: 1000px; /* 가운데 정렬 위해 */
+    max-width: 1000px;
+    /* 가운데 정렬 위해 */
     display: flex;
     flex-direction: row !important;
     align-items: center;
@@ -353,7 +362,8 @@
   .en_sec_1 .en_sec_1_question_box {
     display: flex;
     align-items: center;
-    gap: 10px; /* 아이콘과 텍스트 사이 간격 */
+    gap: 10px;
+    /* 아이콘과 텍스트 사이 간격 */
   }
   .en_sec_1 .en_sec_1_icon {
     width: 16px;
@@ -397,7 +407,8 @@
   .en_sec_3 .en_sec_3_contents .en_sec_3_box {
     display: block !important;
     flex-direction: column;
-    align-items: center; /* 가운데 정렬 (선택사항) */
+    align-items: center;
+    /* 가운데 정렬 (선택사항) */
     gap: 30px;
   }
   .en_sec_3 .en_sec_3_contents .en_sec_3_box .en_sec_3_img1,
@@ -546,7 +557,8 @@
 
 @media screen and (max-width: 1024px) and (min-width: 769px) {
   .notice_t {
-    font-size: 48px; /* 폰트 사이즈 64 > 48로 변경 */
+    font-size: 48px;
+    /* 폰트 사이즈 64 > 48로 변경 */
   }
 }
 @media screen and (max-width: 768px) and (min-width: 376px) {
